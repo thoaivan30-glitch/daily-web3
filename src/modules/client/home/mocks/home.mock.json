@@ -324,43 +324,103 @@
             "id": 1,
             "title": "Daily Essentials",
             "discount": "UP to 50% OFF",
-            "image": "/images/essentials/basket.png",
+            "image": "/image/home/daily-essential-1.png",
             "bgColor": "bg-white border-2 border-blue-400"
         },
         {
             "id": 2,
             "title": "Vegitables",
             "discount": "UP to 50% OFF",
-            "image": "/images/essentials/vegetables.png",
+            "image": "/image/home/daily-essential-2.png",
             "bgColor": "bg-gray-100"
         },
         {
             "id": 3,
             "title": "Fruits",
             "discount": "UP to 50% OFF",
-            "image": "/images/essentials/fruits.png",
+            "image": "/image/home/daily-essential-3.png",
             "bgColor": "bg-gray-100"
         },
         {
             "id": 4,
             "title": "Strowberry",
             "discount": "UP to 50% OFF",
-            "image": "/images/essentials/strawberry.png",
+            "image": "/image/home/daily-essential-4.png",
             "bgColor": "bg-gray-100"
         },
         {
             "id": 5,
             "title": "Mango",
             "discount": "UP to 50% OFF",
-            "image": "/images/essentials/mango.png",
+            "image": "/image/home/daily-essential-5.png",   
             "bgColor": "bg-gray-100"
         },
         {
             "id": 6,
             "title": "Cherry",
             "discount": "UP to 50% OFF",
-            "image": "/images/essentials/cherry.png",
+            "image": "/image/home/daily-essential-6.png",   
             "bgColor": "bg-gray-100"
         }
-    ]
+    ],
+    "AboutFeatures": [
+        {
+            "id": 1,
+            "icon": "fa7-solid:search-location",
+            "iconColor": "#00A3FF",
+            "iconBg": "#00A3FF1A",
+            "title": "Minh bạch Nguồn gốc",
+            "description": "Theo dõi toàn bộ hành trình từ nguồn liệu đến sản phẩm hoàn thiện. Mọi thông tin đều được lưu trữ bất biến trên blockchain."
+        },
+        {
+            "id": 2,
+            "icon": "fa7-solid:coins",
+            "iconColor": "#FF8C00",
+            "iconBg": "#FF8C001A",
+            "title": "Phần thưởng Cộng đồng",
+            "description": "Nhận token DLY và NFT đặc biệt khi mua sắm. Tham gia governance và nhận quyền lợi độc quyền từ cộng đồng."
+        },
+        {
+            "id": 3,
+            "icon": "typcn:starburst",
+            "iconColor": "#9333EA",
+            "iconBg": "#F3E8FF",
+            "title": "Sở hữu Kỹ thuật số",
+            "description": "Mỗi sản phẩm đi kèm NFT xác thực độc quyền. Chúng minh quyền sở hữu và tăng giá trị bộ sưu tập của bạn."
+        }
+    ],
+    "ShoppingCategories": [
+        {
+            "id": 1,
+            "title": "Home Decor",
+            "description": "Trang trí không gian sống",
+            "image": "/image/home/home-decor.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Kitchenware",
+            "description": "Dụng cụ nhà bếp cao cấp",
+            "image": "/image/home/kitchenware.jpg"
+        }
+    ],
+    "JoinDao": {
+        "title": "Tham gia Cộng đồng DailyWeb3",
+        "description": "Giữ token DLY và nhận giảm giá 10% cho lần mua sắm tiếp theo! Trở thành thành viên DAO và nhận quyền truy cập sớm vào các sản phẩm mới.",
+        "benefits": [
+            {
+                "id": 1,
+                "text": "Giảm giá độc quyền cho token holders"
+            },
+            {
+                "id": 2,
+                "text": "Quyền vote trong các quyết định DAO"
+            },
+            {
+                "id": 3,
+                "text": "Truy cập sớm sản phẩm limited edition"
+            }
+        ],
+        "buttonText": "Tham gia DAO",
+        "image": "/image/home/JoinDao.png"
+    }
 }

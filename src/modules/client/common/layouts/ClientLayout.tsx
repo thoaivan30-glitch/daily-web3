@@ -14,7 +14,7 @@ const ClientLayout = ({ children }: LayoutProps) => {
       <Navbar />
 
       {/* 📌 Nội dung chính */}
-      <main className="flex-grow container mx-auto p-6">{children}</main>
+      <main className="flex-grow p-5 md:p-0">{children}</main>
 
       {/* 📌 Footer */}
       <Footer />

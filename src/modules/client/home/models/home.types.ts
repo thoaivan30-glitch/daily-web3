@@ -58,3 +58,32 @@ export interface EssentialCard {
     image: string;
     bgColor: string;
 }
+
+export interface AboutFeature {
+    id: number;
+    icon: string;
+    iconColor: string;
+    iconBg: string;
+    title: string;
+    description: string;
+}
+
+export interface ShoppingCategory {
+    id: number;
+    title: string;
+    description: string;
+    image: string;
+}
+
+export interface JoinDaoBenefit {
+    id: number;
+    text: string;
+}
+
+export interface JoinDaoData {
+    title: string;
+    description: string;
+    benefits: JoinDaoBenefit[];
+    buttonText: string;
+    image: string;
+}

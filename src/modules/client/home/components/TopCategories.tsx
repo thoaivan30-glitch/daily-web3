@@ -60,8 +60,8 @@ export const TopCategories: React.FC = () => {
               className="flex flex-col items-center cursor-pointer group"
             >
               {/* Category Image Circle */}
-              <div className="relative w-24 h-24 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-full bg-[#F5F5F5] flex items-center justify-center mb-3 sm:mb-2.5 md:mb-3 transition-all duration-300 overflow-hidden group-hover:border group-hover:border-[#008ECC]">
-                <div className="relative w-20 h-20 sm:w-16 sm:h-16 md:w-24 md:h-24 lg:w-28 lg:h-28">
+              <div className="relative w-32 h-32 sm:w-28 sm:h-28 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-full bg-[#F5F5F5] flex items-center justify-center mb-3 sm:mb-2.5 md:mb-3 transition-all duration-300 overflow-hidden group-hover:border group-hover:border-[#008ECC]">
+                <div className="relative w-28 h-28 sm:w-24 sm:h-24 md:w-24 md:h-24 lg:w-28 lg:h-28">
                   <Image
                     src={category.image}
                     alt={category.name}
@@ -72,7 +72,7 @@ export const TopCategories: React.FC = () => {
               </div>
 
               {/* Category Name */}
-              <h3 className="text-xs sm:text-[10px] md:text-sm lg:text-base font-hk-grotesk font-medium text-gray-900 text-center group-hover:text-[#008ECC] transition-colors">
+              <h3 className="text-sm sm:text-xs md:text-sm lg:text-base font-hk-grotesk font-medium text-gray-900 text-center group-hover:text-[#008ECC] transition-colors">
                 {category.name}
               </h3>
             </motion.div>

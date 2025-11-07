@@ -1,4 +1,4 @@
-import { BannerSlide, CategoryNavigationBar, FlashSaleProduct, DailyEssentialProduct, Category } from '../models/home.types';
+import { BannerSlide, CategoryNavigationBar, FlashSaleProduct, DailyEssentialProduct, Category, AboutFeature, ShoppingCategory, JoinDaoData } from '../models/home.types';
 import mockData from '../mocks/home.mock.json';
 
 export const homeService = {
@@ -16,5 +16,14 @@ export const homeService = {
     },
     getTopCategories: (): Category[] => {
         return mockData.TopCategories;
+    },
+    getAboutFeatures: (): AboutFeature[] => {
+        return mockData.AboutFeatures;
+    },
+    getShoppingCategories: (): ShoppingCategory[] => {
+        return mockData.ShoppingCategories;
+    },
+    getJoinDaoData: (): JoinDaoData => {
+        return mockData.JoinDao;
     }
 };
