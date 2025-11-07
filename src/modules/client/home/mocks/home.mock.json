@@ -1,0 +1,366 @@
+{
+    "bannerSlides": [
+        {
+            "id": 1,
+            "title": "SMART WEARABLE.",
+            "subtitle": "Best Deal Online on smart watches",
+            "discount": "UP to 80% OFF",
+            "image": "/image/home/section-banner-1.png"
+        },
+        {
+            "id": 2,
+            "title": "WIRELESS AUDIO.",
+            "subtitle": "Premium sound quality headphones",
+            "discount": "UP to 70% OFF",
+            "image": "/image/home/section-banner-1.png"
+        },
+        {
+            "id": 3,
+            "title": "SMART HOME.",
+            "subtitle": "Latest smart home devices",
+            "discount": "UP to 60% OFF",
+            "image": "/image/home/section-banner-1.png"
+        },
+        {
+            "id": 4,
+            "title": "GAMING GEAR.",
+            "subtitle": "Professional gaming equipment",
+            "discount": "UP to 65% OFF",
+            "image": "/image/home/section-banner-1.png"
+        },
+        {
+            "id": 5,
+            "title": "MOBILE DEVICES.",
+            "subtitle": "Latest smartphones and tablets",
+            "discount": "UP to 75% OFF",
+            "image": "/image/home/section-banner-1.png"
+        },
+        {
+            "id": 6,
+            "title": "CAMERAS.",
+            "subtitle": "Professional photography equipment",
+            "discount": "UP to 55% OFF",
+            "image": "/image/home/section-banner-1.png"
+        },
+        {
+            "id": 7,
+            "title": "LAPTOPS.",
+            "subtitle": "High-performance computing",
+            "discount": "UP to 50% OFF",
+            "image": "/image/home/section-banner-1.png"
+        }
+    ],
+    "CategoryNavigationBar": [
+        {
+            "name": "Groceries",
+            "subcategories": [
+                "Fresh Produce",
+                "Dairy",
+                "Bakery",
+                "Meat & Seafood"
+            ]
+        },
+        {
+            "name": "Premium Fruits",
+            "subcategories": [
+                "Exotic Fruits",
+                "Organic Fruits",
+                "Seasonal Fruits"
+            ]
+        },
+        {
+            "name": "Home & Kitchen",
+            "subcategories": [
+                "Cookware",
+                "Appliances",
+                "Storage",
+                "Dining"
+            ]
+        },
+        {
+            "name": "Fashion",
+            "subcategories": [
+                "Men",
+                "Women",
+                "Kids",
+                "Accessories"
+            ]
+        },
+        {
+            "name": "Electronics",
+            "subcategories": [
+                "Phones",
+                "Laptops",
+                "Cameras",
+                "Audio"
+            ]
+        },
+        {
+            "name": "Beauty",
+            "subcategories": [
+                "Skincare",
+                "Makeup",
+                "Haircare",
+                "Fragrance"
+            ]
+        },
+        {
+            "name": "Home Improvement",
+            "subcategories": [
+                "Tools",
+                "Paint",
+                "Lighting",
+                "Hardware"
+            ]
+        },
+        {
+            "name": "Sports, Toys & Luggage",
+            "subcategories": [
+                "Sports Equipment",
+                "Toys",
+                "Luggage",
+                "Outdoor"
+            ]
+        }
+    ],
+    "DailyEssentialProduct": [
+        {
+            "id": 1,
+            "name": "Ceramic Coffee Mug",
+            "description": "Premium handcrafted ceramic",
+            "price": 0.05,
+            "priceInUSD": 89,
+            "image": "/image/home/card-product-1.png",
+            "badge": {
+                "icon": "mdi:shield-check",
+                "text": "Ownership Verified by Blockchain"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Bamboo Cutting Board",
+            "description": "Sustainable bamboo material",
+            "price": 0.08,
+            "priceInUSD": 142,
+            "image": "/image/home/card-product-2.png",
+            "badge": {
+                "icon": "mdi:link-variant",
+                "text": "View Supply Chain History"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Desk Organizer Set",
+            "description": "Minimalist workspace solution",
+            "price": 0.12,
+            "priceInUSD": 213,
+            "image": "/image/home/card-product-3.png",
+            "badge": {
+                "icon": "mdi:certificate",
+                "text": "Includes Digital NFT Certificate"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Eco Glass Bottle",
+            "description": "Borosilicate glass, BPA-free",
+            "price": 0.04,
+            "priceInUSD": 71,
+            "image": "/image/home/card-product-4.png",
+            "badge": {
+                "icon": "mdi:leaf",
+                "text": "Carbon Neutral Verified"
+            }
+        }
+    ],
+    "FlashSaleProduct": [
+        {
+            "id": 1,
+            "name": "Galaxy S22 Ultra",
+            "image": "/image/home/phone-1.png",
+            "originalPrice": 74999,
+            "salePrice": 32999,
+            "discount": 56,
+            "savings": 32999
+        },
+        {
+            "id": 2,
+            "name": "Galaxy M13 (4GB | 64 GB )",
+            "image": "/image/home/phone-2.png",
+            "originalPrice": 14999,
+            "salePrice": 10499,
+            "discount": 56,
+            "savings": 4500
+        },
+        {
+            "id": 3,
+            "name": "Galaxy M33 (4GB | 64 GB )",
+            "image": "/image/home/phone-3.png",
+            "originalPrice": 24999,
+            "salePrice": 16999,
+            "discount": 56,
+            "savings": 8000
+        },
+        {
+            "id": 4,
+            "name": "Galaxy M53 (4GB | 64 GB )",
+            "image": "/image/home/phone-1.png",
+            "originalPrice": 40999,
+            "salePrice": 31999,
+            "discount": 56,
+            "savings": 9000
+        },
+        {
+            "id": 5,
+            "name": "Galaxy S22 Ultra",
+            "image": "/image/home/phone-2.png",
+            "originalPrice": 85099,
+            "salePrice": 67999,
+            "discount": 54,
+            "savings": 18000
+        }
+    ],
+    "TopCategories": [
+        {
+            "id": 1,
+            "name": "Mobile",
+            "image": "/image/home/categories-1.png"
+        },
+        {
+            "id": 2,
+            "name": "Cosmetics",
+            "image": "/image/home/categories-2.png"
+        },
+        {
+            "id": 3,
+            "name": "Electronics",
+            "image": "/image/home/categories-3.png"
+        },
+        {
+            "id": 4,
+            "name": "Furniture",
+            "image": "/image/home/categories-4.png"
+        },
+        {
+            "id": 5,
+            "name": "Watches",
+            "image": "/image/home/categories-5.png"
+        },
+        {
+            "id": 6,
+            "name": "Decor",
+            "image": "/image/home/categories-6.png"
+        },
+        {
+            "id": 7,
+            "name": "Accessories",
+            "image": "/image/home/categories-7.png"
+        }
+    ],
+    "TopBrands": [
+        {
+            "id": 1,
+            "brand": "IPHONE",
+            "logo": "/image/home/apple.png",
+            "discount": "UP to 80% OFF",
+            "productImage": "/image/home/top-brands-3.png",
+            "bgColor": "bg-[#313131]",
+            "ellipseColor": "bg-[#404040]",
+            "discountColor": "text-[#FFFFFF]"
+        },
+        {
+            "id": 2,
+            "brand": "REALME",
+            "logo": "/image/home/realme.png",
+            "discount": "UP to 80% OFF",
+            "productImage": "/image/home/top-brands-1.png",
+            "bgColor": "bg-[#FFF3CC]",
+            "ellipseColor": "bg-[#F6DE8D]",
+            "discountColor": "text-[#222222]"
+        },
+        {
+            "id": 3,
+            "brand": "XIAOMI",
+            "logo": "/image/home/xiaomi.png",
+            "discount": "UP to 80% OFF",
+            "productImage": "/image/home/top-brands-2.png",
+            "bgColor": "bg-[#FFECDF]",
+            "ellipseColor": "bg-[#FFD1B0]",
+            "discountColor": "text-[#222222]"
+        },
+        {
+            "id": 4,
+            "brand": "REALME",
+            "logo": "/image/home/realme.png",
+            "discount": "UP to 80% OFF",
+            "productImage": "/image/home/top-brands-1.png",
+            "bgColor": "bg-[#FFF3CC]",
+            "ellipseColor": "bg-[#F6DE8D]",
+            "discountColor": "text-[#222222]"
+        },
+        {
+            "id": 5,
+            "brand": "XIAOMI",
+            "logo": "/image/home/xiaomi.png",
+            "discount": "UP to 80% OFF",
+            "productImage": "/image/home/top-brands-2.png",
+            "bgColor": "bg-[#FFECDF]",
+            "ellipseColor": "bg-[#FFD1B0]",
+            "discountColor": "text-[#222222]"
+        },
+        {
+            "id": 6,
+            "brand": "IPHONE",
+            "logo": "/image/home/apple.png",
+            "discount": "UP to 80% OFF",
+            "productImage": "/image/home/top-brands-3.png",
+            "bgColor": "bg-[#313131]",
+            "ellipseColor": "bg-[#404040]",
+            "discountColor": "text-[#FFFFFF]"
+        }
+    ],
+    "DailyEssentials": [
+        {
+            "id": 1,
+            "title": "Daily Essentials",
+            "discount": "UP to 50% OFF",
+            "image": "/images/essentials/basket.png",
+            "bgColor": "bg-white border-2 border-blue-400"
+        },
+        {
+            "id": 2,
+            "title": "Vegitables",
+            "discount": "UP to 50% OFF",
+            "image": "/images/essentials/vegetables.png",
+            "bgColor": "bg-gray-100"
+        },
+        {
+            "id": 3,
+            "title": "Fruits",
+            "discount": "UP to 50% OFF",
+            "image": "/images/essentials/fruits.png",
+            "bgColor": "bg-gray-100"
+        },
+        {
+            "id": 4,
+            "title": "Strowberry",
+            "discount": "UP to 50% OFF",
+            "image": "/images/essentials/strawberry.png",
+            "bgColor": "bg-gray-100"
+        },
+        {
+            "id": 5,
+            "title": "Mango",
+            "discount": "UP to 50% OFF",
+            "image": "/images/essentials/mango.png",
+            "bgColor": "bg-gray-100"
+        },
+        {
+            "id": 6,
+            "title": "Cherry",
+            "discount": "UP to 50% OFF",
+            "image": "/images/essentials/cherry.png",
+            "bgColor": "bg-gray-100"
+        }
+    ]
+}
