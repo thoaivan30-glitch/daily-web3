@@ -157,7 +157,7 @@ const TermsSectionList: React.FC = () => {
                                 whileHover={{ y: -5, transition: { duration: 0.3 } }}
                             >
                                 <motion.div 
-                                    className="w-6 h-6 rounded-full flex items-center justify-center mb-4 mx-auto"
+                                    className="w-6 h-6 rounded-full flex items-center justify-center mb-4"
                                     initial={{ scale: 0 }}
                                     animate={{ scale: 1 }}
                                     transition={{ duration: 0.5, delay: 2.8 }}
@@ -221,7 +221,7 @@ const TermsSectionList: React.FC = () => {
                                 whileHover={{ y: -5, transition: { duration: 0.3 } }}
                             >
                                 <motion.div 
-                                    className="w-6 h-6 rounded-full flex items-center justify-center mb-4 mx-auto"
+                                    className="w-6 h-6 rounded-full flex items-center justify-center mb-4"
                                     initial={{ scale: 0 }}
                                     animate={{ scale: 1 }}
                                     transition={{ duration: 0.5, delay: 3.4 }}

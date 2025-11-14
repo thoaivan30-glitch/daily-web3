@@ -48,8 +48,7 @@ const ValueCard: React.FC<ValueCardProps> = ({ value, index }) => {
       </div>
 
       {/* Web3 Feature */}
-      <div className="mt-auto relative pl-4 sm:pl-5 md:pl-6 py-3 sm:py-4 bg-[#F0F9FF] rounded-lg">
-        <div className="absolute left-0 top-0 bottom-0 w-1 sm:w-1.5 border-l-4 border-[#3B82F6]" style={{ borderLeftStyle: 'solid' }}></div>
+      <div className="mt-auto bg-white rounded-lg sm:rounded-xl p-3 sm:p-4 md:p-5 border-l-[3px] sm:border-l-4 border-[#3B82F6]">
         <p className="text-sm sm:text-base font-semibold text-[#3B82F6] mb-1.5 sm:mb-2">{value.web3Feature}</p>
         <p className="text-xs sm:text-sm md:text-base text-[#1F2937] leading-relaxed">
           {value.description}

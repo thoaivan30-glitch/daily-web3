@@ -29,10 +29,10 @@ const Footer: React.FC = () => {
       {
         title: "Sản phẩm",
         links: [
-          { text: "Home Decor", url: "/products/home-decor" },
-          { text: "Kitchen", url: "/products/kitchen" },
-          { text: "Tools", url: "/products/tools" },
-          { text: "Personal Care", url: "/products/personal-care" }
+          { text: "Home Decor", url: "#" },
+          { text: "Kitchen", url: "#" },
+          { text: "Tools", url: "#" },
+          { text: "Personal Care", url: "#" }
         ]
       },
       {
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
         links: [
           { text: "Chính sách bảo mật", url: "/privacy-policy" },
           { text: "Điều khoản sử dụng", url: "/terms-of-service" },
-          { text: "Hướng dẫn Wallet", url: "/wallet-guide" },
+          { text: "Hướng dẫn Wallet", url: "#" },
           { text: "Liên hệ", url: "/contact" }
         ]
       }

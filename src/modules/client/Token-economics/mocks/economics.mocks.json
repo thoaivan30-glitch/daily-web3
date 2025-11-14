@@ -47,7 +47,7 @@
         "borderColor": "#2563EB"
       },
       {
-        "name": "Quản trị & Kho bạc (DAO)",
+        "name": "Quản trị & Kho bạc",
         "percentage": 30,
         "description": "Dùng cho các khoản đầu tư, phát triển, và dự trữ của DAO",
         "color": "#10B981",
