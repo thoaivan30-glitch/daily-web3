@@ -1,0 +1,115 @@
+{
+  "tokenOverview": {
+    "title": "Tổng quan về Token",
+    "subtitle": "Hiển thị các thông số kỹ thuật cốt lõi",
+    "metrics": [
+      {
+        "label": "Tên Token",
+        "value": "UTILITY (UTY)",
+        "description": "Token quản trị và phần thưởng chính",
+        "valueColor": "#2563EB"
+      },
+      {
+        "label": "Ký hiệu",
+        "value": "UTY",
+        "description": "Ký hiệu giao dịch trên sàn",
+        "valueColor": "#2563EB"
+      },
+      {
+        "label": "Nền tảng Blockchain",
+        "value": "Polygon",
+        "description": "Giúp người dùng xác định phí gas và tốc độ giao dịch",
+        "valueColor": "#9333EA"
+      },
+      {
+        "label": "Tổng Cung (Max Supply)",
+        "value": "1,000,000,000 UTY",
+        "description": "Số lượng Token tối đa",
+        "valueColor": "#16A34A"
+      },
+      {
+        "label": "Nguồn Cung Lưu hành",
+        "value": "450,000,000 UTY",
+        "description": "Số Token đang được lưu hành trên thị trường",
+        "valueColor": "#EA580C"
+      }
+    ]
+  },
+  "tokenAllocation": {
+    "title": "Cơ chế Phân bổ",
+    "subtitle": "Phân bổ Token một cách minh bạch và công bằng",
+    "allocations": [
+      {
+        "name": "Cộng đồng & Phần thưởng",
+        "percentage": 40,
+        "description": "Kích thích mua sắm, Loyalty Program, Airdrop cho người dùng đầu tiên",
+        "color": "#3B82F6",
+        "borderColor": "#2563EB"
+      },
+      {
+        "name": "Quản trị & Kho bạc (DAO)",
+        "percentage": 30,
+        "description": "Dùng cho các khoản đầu tư, phát triển, và dự trữ của DAO",
+        "color": "#10B981",
+        "borderColor": "#059669"
+      },
+      {
+        "name": "Đội ngũ & Cố vấn",
+        "percentage": 15,
+        "description": "Được khóa (Vested) trong 3-4 năm để đảm bảo cam kết lâu dài",
+        "color": "#8B5CF6",
+        "borderColor": "#7C3AED"
+      },
+      {
+        "name": "Thanh khoản & Sàn giao dịch",
+        "percentage": 10,
+        "description": "Cung cấp thanh khoản trên các sàn giao dịch phi tập trung (DEX)",
+        "color": "#F59E0B",
+        "borderColor": "#D97706"
+      },
+      {
+        "name": "Vòng hạt giống",
+        "percentage": 5,
+        "description": "Phân bổ cho các nhà đầu tư ban đầu",
+        "color": "#EF4444",
+        "borderColor": "#DC2626"
+      }
+    ]
+  },
+  "tokenBenefits": {
+    "benefits": [
+      {
+        "icon": "ion:checkbox",
+        "title": "Quản trị",
+        "features": "Sở hữu Token cho phép bạn có xuất và bỏ phiếu cho các quyết định của nền tảng",
+        "benefits": "Trở thành người dùng có ảnh hưởng và định hướng phát triển sản phẩm",
+        "bgColor": "from-[#3B82F6] to-[#2563EB]",
+        "iconColor": "text-white"
+      },
+      {
+        "icon": "mdi:gift",
+        "title": "Phần thưởng & Trung thành",
+        "features": "Khách hàng kiếm được Token khi mua sắm sản phẩm hoặc tham gia hoạt động cộng đồng",
+        "benefits": "Đổi Token lấy giảm giá, vận chuyển miễn phí hoặc các sản phẩm độc quyền",
+        "bgColor": "from-[#22C55E] to-[#16A34A]",
+        "iconColor": "text-white"
+      },
+      {
+        "icon": "mdi:image-multiple",
+        "title": "Sở hữu Sản phẩm Số",
+        "features": "Token được yêu cầu để tham gia các đấu giá liên quan đến sản phẩm vật lý phiên bản giới hạn",
+        "benefits": "Xác nhận quyền sở hữu độc quyền và tăng năng lực giá trị sưu tầm",
+        "bgColor": "from-[#A855F7] to-[#9333EA]",
+        "iconColor": "text-white"
+      },
+      {
+        "icon": "mdi:lock",
+        "title": "Khóa/Stake Token",
+        "features": "Người dùng có thể khóa Token của họ trong khoảng thời gian",
+        "benefits": "Nhận thêm Token (Lãi suất) và tăng quyền lực bỏ phiếu (Voting Power) trong DAO",
+        "bgColor": "from-[#EAB308] to-[#CA8A04]",
+        "iconColor": "text-white"
+      }
+    ]
+  }
+}

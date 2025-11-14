@@ -23,6 +23,8 @@ export default {
         sora: ['Sora', 'sans-serif'],
         'hk-grotesk': ['Hanken Grotesk', 'sans-serif'],
         alata: ['Alata', 'sans-serif'],
+        outfit: ['Outfit', 'sans-serif'],
+        'jetbrains-mono': ['JetBrains Mono', 'monospace'],
       },
     },
   },

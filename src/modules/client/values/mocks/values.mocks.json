@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "1",
+      "icon": "mdi:tag",
+      "iconColor": "bg-[#3B82F6]",
+      "title": "Chịu Trách Nhiệm",
+      "meaning": "Chúng tôi chịu trách nhiệm 100% về nguồn gốc sản phẩm. Khác biệt với các mô hình Web2, nơi chuỗi cung ứng thường bị che giấu, chúng tôi công khai mọi bước.",
+      "description": "Tính bất biến của Blockchain được dùng để đảm bảo dữ liệu về vật liệu, nơi sản xuất, và quy trình kiểm định chất lượng không thể bị thay đổi sau khi được ghi nhận.",
+      "web3Feature": "Thực thi Web3:"
+    },
+    {
+      "id": "2",
+      "icon": "mdi:shield-half-full",
+      "iconColor": "bg-[#3B82F6]",
+      "title": "Hướng tới Người Dùng",
+      "meaning": "Người dùng luôn là trung tâm. Dữ liệu cá nhân và quyền sở hữu tài sản kỹ thuật số của họ phải được bảo vệ tối đa.",
+      "description": "Tuyệt đối không lưu trữ dữ liệu nhạy cảm tập trung. Việc xác thực danh tính dựa trên ví đảm bảo người dùng kiểm soát danh tính của mình.",
+      "web3Feature": "Thực thi Web3:"
+    },
+    {
+      "id": "3",
+      "icon": "flowbite:lightbulb-solid",
+      "iconColor": "bg-[#3B82F6]",
+      "title": "Thiết kế có Chủ đích",
+      "meaning": "Đồ dùng hàng ngày phải có giá trị sử dụng cao và được thiết kế để bền bỉ. Chúng tôi phản đối văn hóa \"vứt bỏ nhanh\".",
+      "description": "Các sản phẩm có thể được liên kết với NFT đại diện cho \"Phiên bản Bền vững Giới hạn\" hoặc các bản cập nhật hướng dẫn bảo trì/sửa chữa.",
+      "web3Feature": "Thực thi Web3:"
+    },
+    {
+      "id": "4",
+      "icon": "pepicons-print:handshake",
+      "iconColor": "bg-[#3B82F6]",
+      "title": "Cởi mở và Hợp tác",
+      "meaning": "Chúng tôi tin vào sức mạnh của mã nguồn mở và sự hợp tác phi tập trung.",
+      "description": "Khuyến khích cộng đồng đóng góp ý kiến về thiết kế, vật liệu mới, hoặc quy trình quản trị thông qua các cộng đồng DAO.",
+      "web3Feature": "Thực thi Web3:"
+    }
+  ]
+}

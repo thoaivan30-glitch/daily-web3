@@ -2,44 +2,54 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import IconifyIcon from './IconifyIcon';
 
 const Footer: React.FC = () => {
+  const pathname = usePathname();
+  
+  // Function to check if current path matches the link
+  const isCurrentPage = (url: string) => {
+    if (url === '/' && pathname === '/') return true;
+    if (url !== '/' && pathname.startsWith(url)) return true;
+    return false;
+  };
+
   const footerData = {
     brand: {
       name: "DailyWeb3",
       description: "Nền tảng e-commerce Web3 đầu tiên cho đồ dùng hàng ngày với sự minh bạch và quyền sở hữu thực sự."
     },
     socialLinks: [
-      { icon: "mdi:twitter", url: "#", label: "Twitter" },
-      { icon: "qlementine-icons:discord-fill-16", url: "#", label: "Discord" },
-      { icon: "streamline-logos:telegram-logo-2-solid", url: "#", label: "Telegram" }
+      { icon: "mdi:twitter", url: "https://twitter.com/dailyweb3", label: "Twitter" },
+      { icon: "qlementine-icons:discord-fill-16", url: "https://discord.gg/dailyweb3", label: "Discord" },
+      { icon: "streamline-logos:telegram-logo-2-solid", url: "https://t.me/dailyweb3", label: "Telegram" }
     ],
     sections: [
       {
         title: "Sản phẩm",
         links: [
-          { text: "Home Decor", url: "#" },
-          { text: "Kitchen", url: "#" },
-          { text: "Tools", url: "#" },
-          { text: "Personal Care", url: "#" }
+          { text: "Home Decor", url: "/products/home-decor" },
+          { text: "Kitchen", url: "/products/kitchen" },
+          { text: "Tools", url: "/products/tools" },
+          { text: "Personal Care", url: "/products/personal-care" }
         ]
       },
       {
         title: "Web3",
         links: [
-          { text: "DAO Governance", url: "#" },
-          { text: "Token Economics", url: "#" },
-          { text: "NFT Marketplace", url: "#" }
+          { text: "DAO Governance", url: "/dao" },
+          { text: "Token Economics", url: "/tokenomics" },
+          { text: "NFT Marketplace", url: "/nft-marketplace" }
         ]
       },
       {
         title: "Hỗ trợ",
         links: [
-          { text: "Chính sách bảo mật", url: "#" },
-          { text: "Điều khoản sử dụng", url: "#" },
-          { text: "Hướng dẫn Wallet", url: "#" },
-          { text: "Liên hệ", url: "#" }
+          { text: "Chính sách bảo mật", url: "/privacy-policy" },
+          { text: "Điều khoản sử dụng", url: "/terms-of-service" },
+          { text: "Hướng dẫn Wallet", url: "/wallet-guide" },
+          { text: "Liên hệ", url: "/contact" }
         ]
       }
     ]
@@ -85,16 +95,23 @@ const Footer: React.FC = () => {
                 {section.title}
               </h4>
               <ul className="space-y-3">
-                {section.links.map((link, linkIndex) => (
-                  <li key={linkIndex}>
-                    <Link
-                      href={link.url}
-                      className="text-base text-[#696969] hover:text-[#00A3FF] transition-colors duration-300"
-                    >
-                      {link.text}
-                    </Link>
-                  </li>
-                ))}
+                {section.links.map((link, linkIndex) => {
+                  const isCurrent = isCurrentPage(link.url);
+                  return (
+                    <li key={linkIndex}>
+                      <Link
+                        href={link.url}
+                        className={`text-base transition-colors duration-300 ${
+                          isCurrent 
+                            ? 'text-[#00A3FF] font-semibold' 
+                            : 'text-[#696969] hover:text-[#00A3FF]'
+                        }`}
+                      >
+                        {link.text}
+                      </Link>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}

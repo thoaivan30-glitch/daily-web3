@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Premium Headphones #001",
+    "collection": "Tech Collection",
+    "image": "/image/nft-makertplace/section-5.png",
+    "price": 1.2,
+    "currency": "ETH",
+    "usdPrice": 2400,
+    "status": "Available",
+    "type": "Tech Collection",
+    "features": [{"name": "Liên kết với Headphones Vật lý", "icon": "bxs:cube"}]
+  },
+  {
+    "id": "2",
+    "name": "SmartWatch Elite #042",
+    "collection": "Watch Collection",
+    "image": "/image/nft-makertplace/section-2.png",
+    "price": 3.8,
+    "currency": "ETH",
+    "usdPrice": 7600,
+    "status": "Auction",
+    "type": "Watch Collection",
+    "features": [{"name": "Utility Access Token", "icon": "mdi:key-variant"}]
+  },
+  {
+    "id": "3",
+    "name": "Gaming Laptop Pro #128",
+    "collection": "Gaming Collection",
+    "image": "/image/nft-makertplace/section-3.png",
+    "price": 5.5,
+    "currency": "ETH",
+    "usdPrice": 11000,
+    "status": "Available",
+    "type": "Gaming Collection",
+    "features": [{"name": "Liên kết với Laptop Gaming", "icon": "bxs:cube"}]
+  },
+  {
+    "id": "4",
+    "name": "Smartphone Titan #007",
+    "collection": "Mobile Collection",
+    "image": "/image/nft-makertplace/section-4.png",
+    "price": 2.8,
+    "currency": "ETH",
+    "usdPrice": 5600,
+    "status": "Rare",
+    "type": "Mobile Collection",
+    "features": [{"name": "Digital Art Exclusive", "icon": "ic:round-star"}]
+  }
+]

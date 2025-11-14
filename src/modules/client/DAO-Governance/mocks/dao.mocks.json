@@ -1,0 +1,97 @@
+{
+  "daoStats": {
+    "totalTokensStaked": 2847392,
+    "activeVoters": 1247,
+    "proposalsCreated": 89,
+    "treasuryValue": "$847K"
+  },
+  "statCards": [
+    {
+      "id": "staked",
+      "icon": "mdi:lock",
+      "label": "STAKED",
+      "title": "Total Tokens Staked",
+      "description": "Tổng số Token đã được khóa để bỏ phiếu"
+    },
+    {
+      "id": "voters",
+      "icon": "mdi:account-group",
+      "label": "ACTIVE",
+      "title": "Active Voters",
+      "description": "Thành viên đã bỏ phiếu trong 30 ngày qua"
+    },
+    {
+      "id": "proposals",
+      "icon": "fa7-solid:lightbulb",
+      "label": "CREATED",
+      "title": "Proposals Created",
+      "description": "Tổng số đề xuất đã được tạo ra"
+    },
+    {
+      "id": "treasury",
+      "icon": "streamline-plump:safe-vault-solid",
+      "label": "TREASURY",
+      "title": "Treasury Value",
+      "description": "Giá trị tài sản trong Kho bạc DAO"
+    }
+  ],
+  "proposals": [
+    {
+      "id": "1",
+      "status": "Đang hoạt động",
+      "proposalId": "#Bx7a8F...",
+      "title": "Nên bổ sung danh mục 'Vật liệu Tái chế'?",
+      "description": "Đề xuất mở rộng sản phẩm với dòng vật liệu tái chế 100%, dự kiến chi phí đầu tư 50K USD và tạo ra 15% doanh thu bổ sung.",
+      "author": "@greentech_dev",
+      "endTime": "Kết thúc sau 3 ngày 5 giờ",
+      "votePercentage": 75
+    },
+    {
+      "id": "2",
+      "status": "Đang hoạt động",
+      "proposalId": "#Bx9b2c...",
+      "title": "Triển khai chương trình Carbon Credit",
+      "description": "Đề xuất phát triển hệ thống carbon credit on-chain để khách hàng có thể bù trừ khí thải CO2 khi mua sản phẩm.",
+      "author": "@sustainability_lead",
+      "endTime": "Kết thúc sau 1 ngày 12 giờ",
+      "votePercentage": 82
+    }
+  ],
+  "processSteps": [
+    {
+      "number": 1,
+      "icon": "fa7-solid:lightbulb",
+      "title": "Đề xuất",
+      "description": "Sở hữu **1,000 ECODAO Token** để tạo đề xuất trên diễn đàn cộng đồng."
+    },
+    {
+      "number": 2,
+      "icon": "streamline-sharp:chat-two-bubbles-oval-solid",
+      "title": "Thảo luận",
+      "description": "Cộng đồng thảo luận và cải tiến đề xuất trong **7 ngày** trước khi bỏ phiếu."
+    },
+    {
+      "number": 3,
+      "icon": "fluent:calendar-checkmark-center-48-filled",
+      "title": "Bỏ phiếu",
+      "description": "Sử dụng Token Quản trị của bạn để bỏ phiếu on-chain. **1 Token = 1 Phiếu**."
+    }
+  ],
+  "participationMethods": [
+    {
+      "icon": "mdi:cart",
+      "title": "Mua sắm sản phẩm",
+      "description": "Nhận 10 ECODAO cho mỗi $100 chi tiêu"
+    },
+    {
+      "icon": "fa7-solid:coins",
+      "title": "Stake Token",
+      "description": "Stake ETH để nhận ECODAO với APY 12%"
+    },
+    {
+      "icon": "mdi:swap-horizontal",
+      "title": "Mua trên DEX",
+      "description": "Trade trực tiếp trên Uniswap"
+    }
+  ]
+}

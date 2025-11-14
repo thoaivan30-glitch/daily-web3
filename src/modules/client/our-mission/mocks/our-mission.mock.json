@@ -1,0 +1,25 @@
+{
+  "missions": [
+    {
+      "id": "1",
+      "icon": "line-md:link",
+      "iconColor": "bg-[#3B82F6]",
+      "title": "Minh Bạch Tuyệt Đối🧷",
+      "description": "Mỗi sản phẩm đi kèm một ID Token/NFT duy nhất. Khách hàng có thể truy cập **Lịch sử Chuỗi Cung Ứng** của món đồ đó—từ nguyên vật liệu thô đến tay bạn—tất cả đều được ghi lại không thể thay đổi trên Blockchain."
+    },
+    {
+      "id": "2",
+      "icon": "streamline-flex:diamond-1-remix",
+      "iconColor": "bg-[#3B82F6]",
+      "title": "Quyền Sở Hữu và Phần Thưởng💎",
+      "description": "Chúng tôi không chỉ bán sản phẩm, chúng tôi trao **Quyền sở hữu**. Khi bạn mua một mặt hàng đủ điều kiện, bạn sẽ nhận được Token thưởng hoặc NFT độc quyền, mở khóa các đặc quyền như giảm giá vĩnh viễn, quyền truy cập sớm vào bộ sưu tập mới."
+    },
+    {
+      "id": "3",
+      "icon": "mdi:account-group",
+      "iconColor": "bg-[#3B82F6]",
+      "title": "Phát Triển Cộng Đồng Bền Vững 🧑‍🤝‍🧑",
+      "description": "Sức mạnh của mỗi chúng tôi đến từ cộng đồng. Bằng cách tham gia vào hệ sinh thái, bạn không chỉ là khách hàng mà còn là người đồng sở hữu. Các quyết định quan trọng sẽ được thảo luận và bỏ phiếu thông qua cơ chế **DAO**."
+    }
+  ]
+}

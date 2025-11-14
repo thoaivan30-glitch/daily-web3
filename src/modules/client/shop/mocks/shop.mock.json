@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Modern Ceramic Bowl Set",
+      "price": 1250000,
+      "ethPrice": 0.048,
+      "image": "/image/shop/shop-1.png",
+      "category": "Kitchen",
+      "stock": 15,
+      "badges": ["verified"],
+      "features": [
+        { "type": "verified", "label": "Verified Supply Chain" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Bamboo Cutting Board",
+      "price": 890000,
+      "ethPrice": 0.032,
+      "image": "/image/shop/shop-2.png",
+      "category": "Kitchen",
+      "stock": 28,
+      "badges": ["Sustainable"],
+      "features": [
+        { "type": "verified", "label": "Verified Supply Chain" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Geometric Table Lamp",
+      "price": 2890000,
+      "ethPrice": 0.105,
+      "image": "/image/shop/shop-3.png",
+      "category": "Home Decor",
+      "stock": 3,
+      "badges": ["Limited"],
+      "features": [
+        { "type": "verified", "label": "Verified Supply Chain" }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Minimalist Ceramic Vase",
+      "price": 1650000,
+      "ethPrice": 0.062,
+      "image": "/image/shop/shop-4.png",
+      "category": "Home Decor",
+      "stock": 12,
+      "badges": ["DAO Verified"],
+      "features": [
+        { "type": "verified", "label": "Verified Supply Chain" }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Wooden Utensil Set",
+      "price": 450000,
+      "ethPrice": 0.016,
+      "image": "/image/shop/shop-5.png",
+      "category": "Kitchen",
+      "stock": 45,
+      "badges": ["verified"],
+      "features": [
+        { "type": "verified", "label": "Verified Supply Chain" }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Modern Wall Clock",
+      "price": 3250000,
+      "ethPrice": 0.118,
+      "image": "/image/shop/shop-6.png",
+      "category": "Home Decor",
+      "stock": 8,
+      "badges": ["Limited"],
+      "features": [
+        { "type": "verified", "label": "Verified Supply Chain" }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Modern Ceramic Bowl Set",
+      "price": 1250000,
+      "ethPrice": 0.048,
+      "image": "/image/shop/shop-1.png",
+      "category": "Kitchen",
+      "stock": 15,
+      "badges": ["DAO Verified"],
+      "features": [
+        { "type": "verified", "label": "Verified Supply Chain" }
+      ]
+    }
+  ],
+  "categories": [
+    { "id": "kitchen", "name": "Kitchen", "count": 127 },
+    { "id": "home-decor", "name": "Home Decor", "count": 89 },
+    { "id": "furniture", "name": "Furniture", "count": 156 }
+  ]
+}
